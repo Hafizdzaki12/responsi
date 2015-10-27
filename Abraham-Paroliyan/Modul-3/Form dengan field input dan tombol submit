@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+		Masukan nama depan anda:
+		<input type="text" placeholder="namadepan" value="Mickey">
+		<br>Masukan nama belakang anda:
+		<input type="text" placeholder="namabelakang" value="Mouse">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+	<p>
+		Bila anda mengklik tombol "Submit", Anda akan mengirim input yang dimasukan lewat form di atas ke pemroses yang bernama form_action.asp di situs w3c.
+	</p>
+</body>
+</html>
