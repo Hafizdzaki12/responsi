@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+<fieldset>
+	<legend>
+		Informaasi kesehatan:
+	</legend>
+	<form>
+		Tinggi <input type="text" size="3">
+		Berat <input type="text" size="3">
+		<br>
+		<input type="button" value="Ada tombol disini">
+	</form>
+</fieldset>
+<p>
+	Bila tidak terlihat adanya border di sekeliling form input, browser anda sudah terlalu lama.
+</p>
+
+</body>
+</html>
