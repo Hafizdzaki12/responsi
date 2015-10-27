@@ -1,0 +1,269 @@
+No 1:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 1</title>
+</head>
+<body>
+	<form>
+	Nama Depan :
+	<input type="text" placeholder="Nama Depan">
+	<br>
+	Nama Belakang:
+	<input type="text" placeholder="Nama Belakang">
+	<br>
+	Password:
+	<input type="password" placeholder="Password">
+	</form>
+	<p>
+	Perhatikan bahwa ketika Anda mengetikan karakter-karakter
+	dalam suatu field password, browser akan menampilkan asterisk atau
+	bullet saja, bukannya karakter yang diketikkan
+	</p>
+</body>
+</html>
+
+No 2:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 2</title>
+</head>
+<body>
+	<form>
+	Saya memiliki sebuah sepeda:
+	<input type="checkbox" name="Sepeda">
+	<br>
+	Saya memiliki sebuah mobil:
+	<input type="checkbox" name="Mobil" value="ON">
+	<br>
+	Jenis kelamin anda?
+	<br>
+	Pria:
+	<input type="radio" name="gender" value="pria">
+	<br>
+	Wanita:
+	<input type="radio" name="gender" value="wanita" checked>
+	</form>
+	<p>
+	Ketika seorang pengguna memberikan klik mouse pada 
+	tombol radio, tombol tersebut diberi tanda cek, dan
+	semua tombol lain yang berada dalam nama yang sama 
+	akan kehilangan tanda cek-nya
+	</p>
+</body>
+</html>
+
+No 3:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 3</title>
+</head>
+<body>
+	<form>
+	<select name="Mobil">
+		<option value="volvo">Volvo
+		<option value="peugeot">Peugeot
+		<option value="fiat" selected>Fiat
+		<option value="jaguar">Jaguar
+	</select>
+	</form>
+</body>
+</html>
+
+No 4:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 4</title>
+</head>
+<body>
+	<fieldset>
+		<legend>
+			Informasi Kesehatan:
+		</legend>
+		<form>
+			Tinggi <input type="text" size="3">
+			Massa <input type="text" size="3">
+			<br>
+			<input type="button" value="Ada tombol disini">
+		</form>
+	</fieldset>
+	<p>
+	Bila tidak terlihat adanya border di sekeliling
+	form input, browser anda sudah terlalu lama.
+	</p>
+</body>
+</html>
+
+No 5:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 5</title>
+</head>
+<body>
+	<form name="input" action="http://www.w3c.org/form_action.asp" method="get">
+		Masukan Nama Depan Anda:
+		<input type="text" name="namadepan" placeholder="Noval">
+		<br>
+		Masukan Nama Belakang Anda:
+		<input type="text" name="namabelakang" placeholder="Sinaga">
+		<br>
+		<input type="submit" name="submit" value="Kirim">
+	</form>
+	<p>
+	Bila anda mengklik tombol submit, anda akan mengirim
+	input yang dimasukan lewat form diatas ke pemroses
+	yang bernama form_action.asp di situs w3c.
+	</p>
+</body>
+</html>
+
+No 6:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 6</title>
+</head>
+<body>
+	<form action="http://www.google.com" method="post" enctype="text/plain">
+		<h3> Form ini mengirim sebuah email ke W3C</h3>
+		Nama:
+		<br>
+		<input type="text" name="nama" value="Noval" size="20">
+		<br>
+		Mail:
+		<br>
+		<input type="text" name="mail" value="nmarsg03@gmail.com" size="20">
+		<br>
+		Komentar:
+		<br>
+		<input type="text" name="komentar" value="Wew" size="40">
+		<br>
+		<br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>
+
+No 7:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 7</title>
+</head>
+<body background="Desert.jpg">
+	<h3>Lihatlah, ada gambar latar belakang!</h3>
+	<p>
+		Baik file gambar dengan format gif maupun jpg dapat digunakan sebagai latar belakang HTML.
+	</p>
+	<p>
+		Bila gambar yang digunakan lebih kecil dari halaman situs, 
+		gambar akan ditampilkan berulang - ulang
+	</p>
+	<p>
+		Sebuah gambar dari folder lokal:
+	<img src="Koala.jpg" width="44" height="50">
+	<br>
+	</p>
+	<p>
+		Gambar dari folder lain:
+	<img src="../../../../../Public/Pictures/Sample Pictures/Tulips.jpg" width="33" height="32">
+	</p>
+	<p>
+	Mengambil gambar dari situs lain:
+	<img src="http://www.hjwzw.com/images/id/35394.jpg" width="73" height="68">
+	</p>
+</body>
+</html>
+
+No 8:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 8</title>
+</head>
+<body>
+	<p>
+		Sebuah gambar
+		<img src="Koala.jpg" align="bottom" width="80" height="80">
+		diantara tekt
+	</p>
+	<p>
+		Sebuah gambar
+		<img src="../../../../../Public/Pictures/Sample Pictures/Tulips.jpg" align="middle" width="80" height="80">
+		diantara teks
+	</p>
+	<p>
+		Sebuah gambar
+		<img src="http://www.hjwzw.com/images/id/35394.jpg" align="top" width="80" height="80">
+		diantara tekt
+	</p>
+	<p>
+		Perhatikan bahwa default pengaturan adalah bottom
+	</p>
+	<p>
+		Sebuah gambar
+		<img src="../Jellyfish.jpg" width="80" height="80">
+		diantara teks
+	</p>
+	<p>
+		Sebuah gambar
+		<img src="../../../../../Public/Pictures/Sample Pictures/Penguins.jpg" width="80" height="80">
+		diantara teks
+	</p>
+	<p>
+		Sebuah gambar
+		<img src="http://www.hjwzw.com/images/id/35393.jpg" width="80" height="80">
+		diantara teks
+	</p>
+
+</body>
+</html>
+
+No 9:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 9</title>
+</head>
+<body>
+	<img src="Koala.jpg" title="Foto Koala" width="60" height="60">
+	<p>
+		Browser teks-only hanya akan menampilkan teks dalam atribut "alt", yaitu
+		"Keterangan". Perhatikan bahwa bilamana anda membawa pointer mouse
+		di atas gambar tersebut maka tekst alternatif akan ditampilkan.
+	</p>
+</body>
+</html>
+
+No 10:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 10</title>
+</head>
+<body bgcolor="#d0d0d0">
+	<p>
+		Paragraf ini terlihat enak dibaca karena menggunakan kombinasi warna latar
+		belakang dengan warna teks yang sesuai.
+	</p>
+</body>
+</html>
+
+No 11:
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 3 no 11</title>
+</head>
+<body bgcolor="#ffffff" text="yellow">
+	<p>
+		Paragraf ini terlihat tidak enak dibaca karena menggunakan kombinasi warna latar
+		belakang dengan warna teks yang tidak sesuai.
+	</p>
+</body>
+</html>
