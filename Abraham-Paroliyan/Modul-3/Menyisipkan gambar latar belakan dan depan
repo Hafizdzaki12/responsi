@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body background="123.jpg">
+	<h3>Lihatlah, ada gambar latar belakang</h3>
+	<p>Baik file gamber dengan format gif maupun jpg dapat digunakan sebagai latar belakng HTML</p>
+	<p>Bila gambar yang digunakan lebih kecil dari halaman situs, gambar akan ditam/pilkan berulang-ulang</p>
+	<p>
+		Sebuah gambar dari folder lokal :
+		<img src="111.gif" width="144" height="50">
+	</p>
+		<p>
+		Sebuah gambar dari folder lain :
+		<img src="11/121.jpg" width="33" height="32">
+	</p>
+		<p>
+		Sebuah gambar dari situs lain :
+		<img src="http://google.com/images/begitulahgkpunyakoneksiinternet.jpg" width="73" height="68">
+	</p>
+</body>
+</html>
