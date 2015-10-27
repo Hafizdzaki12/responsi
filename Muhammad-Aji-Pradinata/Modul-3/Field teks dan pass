@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Belajar PW</title>
+</head>
+<body>
+	<form>
+	Nama depan:
+	<input type="text" name="namadepan">
+	<br>
+	Nama belakang:
+	<input type="text" name="namabelakang">
+	<br>
+	password:
+	<input type="password" name="password">
+	</form>
+	<p>
+	perhatikan bahwa ketika anda mengetikkan karakter-
+	karakter dalam suatu field password, browser akan menampilkan asterik atau bullet
+	saja, bukannya karakter yang diketikkan.
+	</p>
+
+	</body>
+	</html>
+	
