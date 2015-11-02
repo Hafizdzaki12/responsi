@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Pw</title>
+</head>
+<body>
+<form name="input" action="http://www.w3corg/form_action.asp" method="get">
+	masukkan nama depan anda :
+	<input type="text" name="namadepan" value="masukan nama">
+	<br>
+	masukkan nama belakang anda :
+	<input type="text" name="namabelakang" value="masukan nama">
+<br>
+</form>
+<p>
+	bila anda mengklik tombol "submit", Anda akan mengirim input yang dimasukkan lewat form diatas ke pemproses
+	yang bernama form_action.asp di situs w3c.
+</p>
+
+</body>
+</html>
