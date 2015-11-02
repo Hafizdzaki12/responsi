@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar Pw</title>
+</head>
+<body>
+<img src="../images/gambar.gif" alt="keterangan" width="32" height="32">
+<p>
+	browser text only hanya akan menampilkan teks dalam atribut "alt", yaitu keterangan".
+		perhatikan bahwa bilamana anda membawa pointer mouse di atas gambar tersebut maka teks alternatif akan ditampilkan.
+</p>
+</body>
+</html>
