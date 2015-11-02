@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul 4 no 8</title>
+	<style type="text/css">
+		a:link {color: #ff0000}
+		a.one:visited {color: #0000ff}
+		a.one:hover {color: #ffcc00}
+		a.two:visited {color: #0000ff}
+		a.two:hover {font-size: 150%}
+		a.three:visited {color: #0000ff}
+		a.three:hover {background: #66ff66}
+		a.four:visited {color: #0000ff}
+		a.four:hover {font-family: fixedsys}
+		a.five:visited {color: #0000ff; text-decoration: line-through;}
+		a.five:hover {text-decoration: overline;}
+	</style>
+</head>
+	<body>		
+		<p>
+		Gerakan pointer mouse di atas link-link di bawah ini
+		untuk membuat link tersebut berubah tampilannya
+		</p>
+		<p> <a class="one" href="Modul 4 no 1.html"> Mengubah properti color </a> </p>
+		<p> <a class="two" href="Modul 4 no 2.html"> Mengubah properti font-size </a> </p>
+		<p> <a class="three" href="Modul 4 no 3.html" >Mengubah properti background-color </a> </p>
+		<p> <a class="four" href="Modul 4 no 4.html"> Mengubah properti font-family </a> </p>
+		<p> <a class="five" href="Modul 4 no 5.html"> Mengubah properti teks-decoration </a> </p>
+	</body>
+</html>
