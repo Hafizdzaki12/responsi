@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	background: #00ff00 url("gambar.gif") no-repeat fixed center;
+	}
+	</style>
+</head>
+<body>
+<p>
+<b>catatan:</b>
+properti background-atachment dan background-position tidak bisa digunakkan dalam browser netscape 4.0.
+</p>
+<p>ada teks disini</p>
+<p>tuliskan nama kalian</p>
+<p>yang penting ada tulisanya</p>
+</body>
+</html>
