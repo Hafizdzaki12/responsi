@@ -1,0 +1,4 @@
+<?php
+	$txt = "doing my hobby";
+	echo "I love ".$txt."!";
+?>
