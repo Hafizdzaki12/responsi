@@ -1,0 +1,7 @@
+<?php
+$cars = array("volvo","bmw","toyota");
+$arrlength = count($cars);
+for($x = 0; $x < $arrlenght; $x++){
+echo $cars[$x];
+echo "<br>";
+}
