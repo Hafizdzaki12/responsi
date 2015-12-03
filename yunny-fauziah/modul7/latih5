@@ -1,0 +1,7 @@
+<?php
+$age = array("petter"=>"35","ben"=>"37","joe"=>"43");
+fpreach($age as $x => $x_value){
+echo "key=" . $x . ", value=" . $x_value;
+echo "<br>";
+}
+?>
