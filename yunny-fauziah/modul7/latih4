@@ -1,0 +1,5 @@
+<?
+php
+$age = array ("petter"=>"35", "ben"=>"37", "joe"=>"43");
+echo "petter is" . $age['petter'] . "years old.";
+?>
