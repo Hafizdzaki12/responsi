@@ -1,0 +1,18 @@
+<html>
+<head>
+<style type="text/css">
+p.margin {margin: 2cm 4cm 3cm 80px}
+</style>
+</head>
+<body>
+<p>
+yang ini adalah paragraf biasa tanpa pengaturan margin, sepertinya biasa saja.
+</p>
+<p class="margin">
+bandingkan dengan tampilan paragraf ini. coba anda kecilkan ukuran window browser anda terlihat lebih jelas perbedaannya.
+</p>
+<p>
+this is a paraghraf
+</p>
+</body>
+</html>
