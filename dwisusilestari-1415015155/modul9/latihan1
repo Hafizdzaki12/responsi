@@ -1,0 +1,5 @@
+<form action="proses-login.php" method=POST">
+username <input type="text" name="username" placeholder="enter the username">
+password <input type="possword" name="password" placeholder="enter the password">
+<input type="submit" value="login">
+</form>
