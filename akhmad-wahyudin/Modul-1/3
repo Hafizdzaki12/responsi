@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<p>Tag hr mendifinisikan sebuah garis horisontal, default-nya adalah rata tengah:</p>
+	<hr color="yellow"  >
+	<p align="left">Terdapat paragraf disini</p>
+	<hr width="80%" size="10" align="left">
+	<p width="400" size="6" align="right" color="red">
+	<center>
+	<p>Terdapat paragraf disini</p>
+	</center>
+	<!- Ini adalah komentar yang tidak akan ditampilakn di layar browser -->
+</body>
+</html>
