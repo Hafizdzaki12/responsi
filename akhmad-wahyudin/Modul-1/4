@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Belajar PW</title>
+</head>
+<body>
+	<b>Teks ini tebal </b>
+	<br>
+	<strong>Teks ini juga tebal</strong>
+	<br>
+	<em> Teks ini miring </em>
+	<br>
+	<small> Teks ini hurufnya kecil </small>
+	<br>
+	Teks ini berisi <sub> subsript </sub>
+	<br>
+	Teks ini berisi <sup> superscript </sup>
+</body>
+</html>
