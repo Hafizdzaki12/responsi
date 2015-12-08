@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BElajar PW</title>
+</head>
+<body>
+<form>
+Nama Depan      :
+<input type="text" placeholder="nama depan">
+<br>
+Nama Belakang   :
+<input type="text" placeholder="nama belakang">
+<br>
+Password        :
+<input type="password" placeholder="password anda">
+</form>
+<p>
+Perhatikan bahwa ktika anda mengetikan karakter-karakter dalam suatu field password, browser anda akan menampilkan astrisk atau bullet saja, bukan karakter yang diketikan.
+</body>
+</html>
