@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar PRaktikum PW</title>
+</head>
+<body>
+Saya Memiliki sebuah sepeda :
+<input type="checkbox" name="sepeda">
+<br>
+saya memiliki sebuah mobil :
+<input type="checkbox" name="mobil">
+<br>
+Jenis Kelamin Anda ?
+<br>
+Pria :
+<input type="radio" name="Sex" value="pria">
+<br>
+Wanita :
+<input type="radio" name="Sex" value="wanita"checked>
+</body>
+<p>
+ketika seorang pengguna memberikan klik mouse pada sebuah tombol radio, tombol tersebut terlihat diberi tanda cek, dan semua tombol lain yang berada dalam nama yang sama akan kehilangan tanda ceknya.
+</body>
+</html>
